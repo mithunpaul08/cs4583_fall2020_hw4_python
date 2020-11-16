@@ -28,16 +28,14 @@ just created. Your command must be similar to :
 
 # Write your code
 
-You will implement one function each for each of the sub questions of qns 5, Eg:` def q5_1(self,query):` inside 
-the class `InvertedIndex`(src/main/python/edu/arizona/cs/invertedindex.py). These functions should return the documents in the right order , as asked in the question. 
+You will implement one function each for each of the sub questions, Eg:` def runQ4_3_with_smoothing` inside 
+the class `QueryEngine*`(src/main/python/edu/arizona/cs/queryengine*.py). These functions should return the documents in the right order , as asked in the question. 
 
 Also, you **should not edit** these files:
 - `.travis.yml`
-- `src/main/resources/Docs.txt`
-- `src/main/python/edu/arizona/cs/document.py`
-- `src/test/python/edu/arizona/cs/test_hw2_q7.py`
+- `src/main/resources/*.txt`
+- `src/test/python/edu/arizona/cs/*.py`
 
-**Note: The file `src/main/resources/Docs.txt` is the input file you must use as per hw1 guidelines. Please don't edit it or move it.**
 
 # Test your code
 
@@ -83,10 +81,9 @@ If your test cases are failing, you will get an error message like this.
 Click on the link which says `details` and find out what is causing the issue or which test case is not passing. Once you have identified that, close the pull request, fix the errors, and raise another pull request.
 **Do not merge the pull request.**
 
-Your instructor will grade the code of this pull request. 
+Your instructor will grade the code off this pull request. 
 Pull requests submitted after the deadline won’t be considered.
-You don't have to submit the code in D2l. Note that you still have to submit the answers to qns 1 to 4 in D2l.
-
+ 
 # Grading
 
 Programming question of this assignment will be graded primarily on their ability to pass the tests that
@@ -95,4 +92,6 @@ Assignments that pass all, and with the corresponding code implementing the corr
 possible points.
 
 To get the remaining of the points, your code will be checked for things like readability and code quality.
+
+Note: there will be a penalty for not following all instructions.
 
