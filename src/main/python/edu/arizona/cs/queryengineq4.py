@@ -6,10 +6,6 @@ class QueryEngineQ4:
         # add your code here
         pass
 
-    def read_txt_file(self,input_file):
-        #add your code here
-        docs=None
-        return docs
 
     #This method computes the parameters of the language model".
     def buildmodel(self):

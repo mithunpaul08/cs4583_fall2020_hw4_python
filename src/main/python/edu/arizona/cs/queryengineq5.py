@@ -6,10 +6,6 @@ class QueryEngineQ5:
         # add your code here
         pass
 
-    def read_txt_file(self):
-        #add your code here
-        docs=None
-        return docs
 
     def buildmodel(self):
         # add your code here
