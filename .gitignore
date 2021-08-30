@@ -5,6 +5,5 @@ DS_Store
 *DS_Store*
 .pytest_cache
 .pytest_cache/*
-*__init__.py*
 .idea
 .idea/*
