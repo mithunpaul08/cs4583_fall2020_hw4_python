@@ -15,6 +15,7 @@ class QueryEngineQ4:
     must be sorted in the descending order of scores. '''
 
     def runQ4_3_with_smoothing(self,query):
+        print("")
         # dummy code. add your code here
         ans=[]
         ans1 = Document("Doc1",0.4)
